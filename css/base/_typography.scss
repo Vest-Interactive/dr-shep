@@ -1,0 +1,45 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font-family: $text-font-stack;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures, contextual;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+h1, h2 {
+  font-weight: 300;
+  color: $title-color;
+  font-family: $text-font-stack;
+}
+
+p {
+  font-family: $text-font-stack;
+  line-height: 1.5em;
+  font-size:14px;
+  color: $dark-grey;
+}
+
+ul,
+ol {
+  font-family: $text-font-stack;
+  padding-left: 1.75em;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-brand-color;
+}
+
+a:hover {
+  color: $brand-color;
+}
+
+code {
+  font-size: 0.75em;
+  background-color: $very-light-grey;
+  padding: 0.125em 0.5em;
+  border-radius: 1px;
+}

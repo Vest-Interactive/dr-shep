@@ -1,0 +1,36 @@
+/* Header / Navigation */
+.site-header {
+	position: absolute;
+	display: block;
+	width: 100%;
+	z-index: 2;
+
+	.container {
+		margin: 0 auto;
+	}
+
+	.logo-block {
+		padding-left: 0;
+		
+		a {
+			display: block;
+			margin-top: 20px;
+		}
+	}
+
+	nav ol {
+		list-style-type: none;
+		text-align: right;		
+		margin-top: 45px;
+
+		li {
+			margin-bottom: 10px;
+
+			a { 
+				color: $very-light-grey; 
+		    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+		    font-weight: 300;
+			}			
+		}
+	}
+}

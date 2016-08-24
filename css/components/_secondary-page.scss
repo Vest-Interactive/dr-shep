@@ -1,0 +1,46 @@
+/* Secondary Page Template */
+
+.page.secondary {
+	background-color: $dark-grey;
+	padding-bottom: 70px;
+
+	.content-wrapper {
+		.container {
+			margin: 0 auto;
+			margin-top: -235px;
+		}
+	}
+
+	.main-block {
+		background-color: $background-color;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		background-repeat: repeat;
+		background-image: url(../images/bg-grey-tile.jpg);
+		padding-bottom: 50px;
+	}
+
+	/*  */
+	.page-title-block {
+		display: flex;
+	}
+
+	h1 {
+		display: inline-block;
+	}
+
+	.return-to-homepage {
+		flex-grow: 1;
+		height: 57px;
+		vertical-align: middle;
+		text-align: right;
+		line-height: 54px;
+		padding-top: 15px;
+
+		border-bottom: 5px solid $light-brand-color;
+		margin-bottom: 5px;
+		margin-left: 15px;
+		font-size: 12px;
+	}
+	
+}

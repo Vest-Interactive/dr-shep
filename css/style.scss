@@ -1,0 +1,24 @@
+/* Do not write any CSS in here, add it to the appropriate module or make a new one and import it */
+
+@charset 'UTF-8';
+
+
+/* 1. Vendors */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+
+/* 2. Configuration and helps */
+@import 'utils/_variables';
+@import 'base/_helpers';
+
+/* 3. Base stuff */
+@import 'base/_base';
+@import 'base/_typography';
+
+/* 4. Layout-related sections */
+@import 'base/_grids';
+
+/* 5. Gloabl Components */
+@import 'components/_header';
+@import 'components/_hero';
+@import 'components/_secondary-page';
+@import 'components/_sidebar';
